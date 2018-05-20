@@ -13,6 +13,7 @@ pandas = "*"
 ipython = {extras = ["notebook"]}
 requests = "*"
 sklearn = "*"
+nltk = "*"
 
 [requires]
 python_version = "3.6"
