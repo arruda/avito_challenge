@@ -91,11 +91,19 @@ def return_description_reduced(df):
 
 
 def save_description_linear_regression_model(pkl_filename, model):
+    save_model(pkl_filename, model)
+
+
+def load_description_linear_regression_model(pkl_filename):
+    return load_model(pkl_filename)
+
+
+def save_model(pkl_filename, model):
     with open(pkl_filename, 'wb') as f:
         pickle.dump(model, f)
 
 
-def load_description_linear_regression_model(pkl_filename):
+def load_model(pkl_filename):
     with open(pkl_filename, 'rb') as f:
         pickle_model = pickle.load(f)
         return pickle_model

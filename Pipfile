@@ -16,6 +16,7 @@ sklearn = "*"
 nltk = "*"
 rake-nltk = "*"
 kaggle = "*"
+xgboost = "*"
 
 [requires]
 python_version = "3.6"

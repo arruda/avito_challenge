@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "158741dfb5d5348cbd90d1821ed4b94ae4b3a8e53986123ec6b45f2969e63243"
+            "sha256": "bf2d4ca1b2ed33908bc5e61d8a778a5e6138bb7cbead2d2169ccd5c81b35fb27"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -315,11 +315,11 @@
         },
         "pexpect": {
             "hashes": [
-                "sha256:9783f4644a3ef8528a6f20374eeb434431a650c797ca6d8df0d81e30fffdfa24",
-                "sha256:9f8eb3277716a01faafaba553d629d3d60a1a624c7cf45daa600d2148c30020c"
+                "sha256:2a8e88259839571d1251d278476f3eec5db26deb73a70be5ed5dc5435e418aba",
+                "sha256:3fbd41d4caf27fa4a377bfd16fef87271099463e6fa73e92a52f92dfee5d425b"
             ],
             "markers": "sys_platform != 'win32'",
-            "version": "==4.5.0"
+            "version": "==4.6.0"
         },
         "pickleshare": {
             "hashes": [
@@ -341,6 +341,7 @@
                 "sha256:e64193f0047ad603b71f202332ab5527c5e52aa7c8b609704fc28c0dc20c4365",
                 "sha256:e8c43b5eee76b2083a9badde89fd1bbce6c8942d1045146e100b7b5e014f4f1a"
             ],
+            "markers": "os_name != 'nt'",
             "version": "==0.5.2"
         },
         "pygments": {
@@ -565,6 +566,13 @@
                 "sha256:5417789ee6064ff515fd10be24870660af3561c02d3d48b26f6f44285d0f70cc"
             ],
             "version": "==3.2.1"
+        },
+        "xgboost": {
+            "hashes": [
+                "sha256:a76fb937fe28c7ce2a7348173efba90eb3524454b0ce4e196d8124e6edab9ec4"
+            ],
+            "index": "pypi",
+            "version": "==0.71"
         }
     },
     "develop": {}
