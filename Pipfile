@@ -17,6 +17,7 @@ nltk = "*"
 rake-nltk = "*"
 kaggle = "*"
 xgboost = "*"
+textblob = "*"
 
 [requires]
 python_version = "3.6"
